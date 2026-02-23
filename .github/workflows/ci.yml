@@ -19,7 +19,7 @@ jobs:
       - name: Etape 3 - Build
         run: |
           echo 'Etape 3 - Build'
-          echo "STEP3 = ${{ secrets.MDP }}"
+          echo " STEP3 = ${{ secrets.MDP }}"
       - name: Etape 4 - Tests
         run: echo 'Etape 4 - Tests'
       - name: Etape 5 - Packaging
