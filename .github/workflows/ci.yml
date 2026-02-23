@@ -1,0 +1,8 @@
+name: Démonstration de pipeline
+on: push
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'hello Cheikh'
+      - run: echo $HOSTNAME
