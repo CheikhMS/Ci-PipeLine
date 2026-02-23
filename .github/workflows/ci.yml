@@ -4,5 +4,5 @@ jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'hello Cheikh'
+      - Etape 1 - Initialisation
       - run: echo $HOSTNAME
