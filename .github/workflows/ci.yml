@@ -4,7 +4,7 @@ jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Etape 1 - Initialisation'
+      - echo: 'Etape 1 - Initialisation'
       - run: echo 'Etape 2 - Récupération du code'
       - run: echo 'Etape 3 - Build'
       - run: echo 'Etape 4 - Tests'
